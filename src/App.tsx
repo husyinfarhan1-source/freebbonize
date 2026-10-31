@@ -20,7 +20,7 @@ function App() {
 		<main className="w-screen h-screen  flex justify-center items-center">
 			<div className="h-fit mx-auto flex md:flex-row flex-col p-8 justify-center gap-10 items-center">
 				<section className="md:w-96 w-72">
-					<TwibbonCanvas userPhoto={userPhoto} frameSrc={"/twibbon.png"} transform={photoTransform} setTransform={setPhotoTransform} isEditMode={sidebarState == "adjust"} canvasRef={canvasRef} />
+					<TwibbonCanvas userPhoto={userPhoto} frameSrc={"/PTV.png"} transform={photoTransform} setTransform={setPhotoTransform} isEditMode={sidebarState == "adjust"} canvasRef={canvasRef} />
 				</section>
 				<section className="max-w-lg">
 					{sidebarState == "landing" && <LandingPageSidebar onPhotoSelected={handlePhotoSelected} />}
